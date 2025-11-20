@@ -123,7 +123,7 @@ export default function StatsPage({ code }: { code: string }) {
         <div className="mb-8">
           <label className="block text-sm font-medium text-gray-500 mb-2">Short URL</label>
           <div className="flex items-center gap-3">
-            <div className="flex-1 px-4 py-3 bg-gray-50 border border-gray-300 rounded-lg font-mono text-lg">
+            <div className="flex-1 px-4 py-3 bg-gray-50 border border-gray-300 rounded-lg font-mono text-lg text-gray-900">
               {shortUrl}
             </div>
             <button
@@ -142,7 +142,7 @@ export default function StatsPage({ code }: { code: string }) {
             href={link.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="block px-4 py-3 bg-gray-50 border border-gray-300 rounded-lg text-blue-600 hover:text-blue-800 break-all"
+            className="block px-4 py-3 bg-gray-50 border border-gray-300 rounded-lg text-gray-900 hover:underline break-all"
           >
             {link.url}
           </a>
